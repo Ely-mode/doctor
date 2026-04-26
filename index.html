@@ -291,7 +291,11 @@
 			</div>
 		</div>
 		
-		<div><img id="tardis" src="tardis.png" width="6%" style="cursor: pointer; position: fixed; bottom: 0.2%; height: 24%; transition: opacity 2s;" ></div>
+		<div>
+			<img id="tardis" src="tardis.png" width="6%" style="cursor: pointer; position: fixed; bottom: 0.2%; height: 24%; transition: opacity 2s;">
+			<img id="angel" src="angel1.png" width="11%" style="cursor: not-allowed; position: fixed; bottom: 0%; left: 90%; height: 30%;">
+			<img id="crack" src="crack.png" width="59.5%" style="cursor: not-allowed; position: fixed; bottom: 18%; left: 24%; height: 72%; z-index: -1; opacity: 0; transition: opacity 1.5s;">
+		</div>
 
 		<script src="ratings.js"></script>
 		
@@ -399,6 +403,21 @@
 					document.getElementById("e"+i).style.color = 'red';
 				  }
 		  
+			}
+			if (number == 0){
+					document.getElementById("tardis").src="tardis2.png"
+			} else {
+				document.getElementById("tardis").src="tardis.png"
+			}
+			if (number == 2){
+					document.getElementById("angel").src="angel2.png"
+			} else {
+				document.getElementById("angel").src="angel1.png"
+			}
+			if (number >= 4 && number <=6){
+					document.getElementById("crack").style.opacity="1";
+			} else {
+				document.getElementById("crack").style.opacity="0";
 			}
 		}
 
