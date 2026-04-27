@@ -31,9 +31,9 @@ let ratings= {	"s1": [
 				{"anastasia":[null, 9.7, 7.3, 7, 10, 8.7, 5.3, 0.5, 9.5, 8.4, 7.1, 8.2, 6.9, null, ]},
 				{"aber":[null, 9.9, 7.5, 8, 9.5, 8.5, 5.5, 0, 9.2, 9.3, 7.5, 8, 8.5, null, ]}],
 			"s9": [
-				{"ely":[9.7, 7.5, 8, 6.9, 9, 6.5, 6.8, 7, 9.2, 4, 7.4, null, null, null, ]},
-				{"anastasia":[9.2, 6.9, 9.5, 9.5, 9, 7, 5.3, 7.4, 8.9, 3.4, 9.2, 10, null, null, ]},
-				{"aber":[9, null, null, null, null, null, null, null, null, null, null, null, null, null, ]}],
+				{"ely":[9.7, 7.5, 8, 6.9, 9, 6.5, 6.8, 7, 9.2, 4, 7.4, 9.6, 9.1, null, ]},
+				{"anastasia":[9.2, 6.9, 9.5, 9.5, 9, 7, 5.3, 7.4, 8.9, 3.4, 9.2, 10, 9.3, null, ]},
+				{"aber":[9, 6.5, 9, 8, 8, 6, 6.5, 6.5, 7.5, 5, 9, 10, 8, null, ]}],
 			"s10": [
 				{"ely":[null, null, null, null, null, null, null, null, null, null, null, null, null, null, ]},
 				{"anastasia":[null, null, null, null, null, null, null, null, null, null, null, null, null, null, ]},
